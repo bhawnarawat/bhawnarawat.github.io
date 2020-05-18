@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+    transition: 0.8s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+aside{
+    position: fixed;
+    top: 0;
+    width: 17rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    background: black;
+    font-size: 30px;
+}
+
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+aside h1{
+    color: #29D8C0;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+aside h1:hover{
+    color: white;
+}
+
+aside nav a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    color: grey;
+    margin-top: 30px;
+
+}
+
+aside a:hover{
+    color: white;
+}
+
+aside a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 70%;
+    text-align: left;
+    margin: -10px;
+}
+
+.responsive{
+    width: 30%;
+    height: auto;
+}
+
+.responsive h1{
+    text-align: center;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+section h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: black;
+    text-align-all: center;
+}
+
+section p{
+    font-size: 30px;
+    text-align-all: center;
+    display: flex;
+}
+
+section button{
+    padding: 8px 15px;
+    min-width: 140px;
+    border: 0;
+    outline: 0;
+    color: black;
+    cursor: pointer;
+    background: #00FFDC;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+h6{
+    font-size: 16px;
+}
+
+@media (max-width: 780px)
+{
+    aside{
+        width: 0;
+        opacity: 0;
+        overflow: hidden;
+        position: fixed;
+    }
+
+    section h2{
+        font-size: 2.5rem;
+    }
+}
+
+.container{
+    margin-left: 20rem;
+    align-items: center;
+}
+
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+}
+
+.skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: black;
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+    margin: 10%;
+}
+
+.bar span{
+    height: 4px;
+    float: left;
+    background: #00FFDC;
+}
+
+.photoshop {
+    width: 85%;
+    animation: photoshop 2s;
+}
+
+.xd{
+    width: 95%;
+    animation: xd 2s;
+}
+
+.illustrator{
+    width: 85%;
+    animation: illustrator 2s;
+}
+
+.after{
+    width: 60%;
+    animation: after-effect 2s;
+}
+
+@keyframes photoshop {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes xd {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+@keyframes illustrator {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes after-effect{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+
+
+.work{
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+}
+
+.about{
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+}
+
+.experience{
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+}
+
+.contact{
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+    text-align: center;
+}
+
+.home{
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+}
+
+.h2{
+    display: flex;
+}
+
+.h3{
+    display: flex;
+}
+
+.h6{
+    display: flex;
+}
+
+.contact p{
+    font-size: 60px;
+    line-height: 8.2;
+}
+.about p{
+    float: left;
+    padding: 50px;
+}
+
+
+
+
+
