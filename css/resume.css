@@ -1,5 +1,10 @@
+* Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,latin-ext,cyrillic");
+
+
 body {
-  font-family: raleway;
+  font-family: 'PT Sans', Helvetica, sans-serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -44,7 +49,6 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: raleway;
   font-size: 1rem;
 }
 
@@ -66,7 +70,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #29D8C0;
+  background-color: #f06;
 }
 
 .dev-icons {
@@ -74,7 +78,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #29D8C0;
+  color: #f06;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -154,15 +158,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #29D8C0 !important;
+  background-color: #f06 !important;
 }
 
 .text-primary {
-  color: #29D8C0 !important;
+  color: #f06 !important;
 }
 
 a {
-  color: #29D8C0;
+  color: #f06;
 }
 
 a:hover, a:focus, a:active {
@@ -171,4 +175,28 @@ a:hover, a:focus, a:active {
 
 .text-warning{
   color: red !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.fa-ul {
+    line-height: 2rem;
+}
+
+.blink {
+    animation: blinkText 1.2s infinite;
+}
+
+@keyframes blinkText {
+    0% {
+        color: #fff;
+    }
+    49% {
+        color: #f06;
+    }
+    100% {
+        color: #fff;
+    }
 }
